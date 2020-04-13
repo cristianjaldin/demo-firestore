@@ -17,7 +17,7 @@ import com.google.cloud.firestore.WriteResult;
 
 @Repository
 public class PersonRepositoryImpl implements PersonRepository {
-
+	// https://cloud.spring.io/spring-cloud-gcp/spring-cloud-gcp.html#spring-cloud-gcp-core
 	@Autowired
 	private Firestore firestore;
 

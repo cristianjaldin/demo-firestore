@@ -63,12 +63,18 @@
 			</exclusions>
 		</dependency>
 		
-	 	
+	 	<!-- https://cloud.spring.io/spring-cloud-gcp/spring-cloud-gcp.html#_cloud_firestore -->
 		<dependency>
 		    <groupId>org.springframework.cloud</groupId>
 		    <artifactId>spring-cloud-gcp-starter-firestore</artifactId>
 		</dependency>
  
+		<!-- https://cloud.spring.io/spring-cloud-gcp/reference/html/#spring-data-cloud-firestore -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-gcp-data-firestore</artifactId>
+		</dependency>
+		
  		<!-- swagger -->
 		 <dependency>
 		        <groupId>io.springfox</groupId>
