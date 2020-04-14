@@ -14,8 +14,8 @@ The objective of this project is to find the best way to connect to the **Cloud 
 
 ## Repository
 
-1. BookRepository.java	
-2. PersonRepository.java
+1. BookRepository.java	--> Using Spring Data Cloud Firestore
+2. PersonRepository.java --> Using Cloud Firestore
 
 ```java
 
@@ -23,3 +23,6 @@ The objective of this project is to find the best way to connect to the **Cloud 
 
 ## reference
 
+https://cloud.spring.io/spring-cloud-gcp/reference/html/#spring-data-cloud-firestore
+
+https://cloud.spring.io/spring-cloud-gcp/reference/html/#cloud-firestore-spring-boot-starter
